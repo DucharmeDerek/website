@@ -15,14 +15,57 @@
 {% endblock %}
 {% block content %}
 <!-- MAIN -->
+<style>
+.googleCalendar{
+  position: center;
+  height: 0;
+  width: 50%;
+  padding-bottom: 50%;
+}
+
+.googleCalendar iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.x{
+  color: #fff;
+}
+</style>
 <div id="main-wrapper">
   <div id="main-inner-wrapper">
-    <div class="oh-wrapper">
-      <header class="oh-title">Interviews @ 346 Soda Hall</header>
+    <div class="prof-title">
+      <h1 class="col-xs-12 col-sm-12 col-lg-12 col-xl-12">Professional Development</h1>
+    </div>
+    <div class="prof-text"> 
+      <h5 class="col-xs-12 col-sm-12 col-lg-12 col-xl-12">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</h5>
+    </div>
+    <div class="oh-wrapper" class="row">
+      <div class="col-xs-12 col-sm-12 col-lg-12 col-xl-12">
+      <h3 class="oh-title">Interviews @ 346 Soda Hall</h3>
       <div class="interview-faq">
-        <p>Make sure to be logged into your berkeley email otherwise nothing will show up on this page.</p>	
+        <p>Make sure to be logged into your Berkeley email otherwise nothing will show up on this page!</p>	
       </div> 
-      <iframe id="interview-frame" src="https://calendar.google.com/calendar/selfsched?sstoken=UUNoQ1F6WXdHaU95fGRlZmF1bHR8MzhlMGY3ZDNhY2U3YjM0YzlhOGNmNWI1M2Y4ZTNjZGM" scrolling="no"></iframe>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-lg-12 col-xl-12">
+      <div class="googleCalendar">
+        <iframe src="https://calendar.google.com/calendar/embed?title=UPE%20Interviews&amp;showCalendars=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=8d3fc8l9g04n7r9im45fsn08ak%40group.calendar.google.com&amp;color=%238D6F47&amp;ctz=America%2FLos_Angeles" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+      </div>
+    </div>
+    </div>
+    <div class="crit-wrapper" >
+      <div class="col-xs-12 col-sm-12 col-lg-12 col-xl-12">
+      <h3 class="crit-title">Resume Critiques</h3>
+    </div>
+      <div class="crit-text" >
+        <div class="col-xs-12 col-sm-12 col-lg-12 col-xl-12"><p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+        </p></div>
+      <div>
+        <p class="x">.<style font-color = #fff></style></p>
+      </div>
+      </div>
     </div>
   </div>
 </div>
